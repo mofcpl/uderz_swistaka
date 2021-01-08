@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{d0b6f92f-1fbf-408d-8559-0f060d87b49a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Timer">
+      <UniqueIdentifier>{08eaa261-424e-4dd6-a988-5db1b788e2e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Event">
+      <UniqueIdentifier>{06f468a1-31a5-45d1-bec5-1031421dc835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Graph">
+      <UniqueIdentifier>{72acab92-ff3f-4c47-a17b-03b4783e80ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\App">
+      <UniqueIdentifier>{2729cfc5-d573-45b6-9aab-4bf6055d191c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\App\Game">
+      <UniqueIdentifier>{9933f735-53f7-4628-9f63-65d4cde8099b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\App\Intro">
+      <UniqueIdentifier>{28f89757-c427-4b99-b912-dc9b95161973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\App\Menu">
+      <UniqueIdentifier>{0e9e68e5-b890-4fe3-a1a5-f8da914cf334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\App\Game\Hammer">
+      <UniqueIdentifier>{04eb58bb-28c0-4234-a77e-26b6b1a3e9b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\App\Game\Hamster">
+      <UniqueIdentifier>{7cdc63f7-b187-4f6f-9382-c1483bf0a85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Sound">
+      <UniqueIdentifier>{eef2a3a2-f857-40ba-b410-e22d41a319e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\App\Game\Particle">
+      <UniqueIdentifier>{c78fa543-726d-496b-b688-a040df15e24f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Core\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Core\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Core\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Core\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Core\App\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>Core\App\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Core\App\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Hammer.cpp">
+      <Filter>Core\App\Game\Hammer</Filter>
+    </ClCompile>
+    <ClCompile Include="Hamster.cpp">
+      <Filter>Core\App\Game\Hamster</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Core\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Core\App\Game\Particle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Core\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Core\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Core\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Core\App\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>Core\App\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Core\App\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Hammer.h">
+      <Filter>Core\App\Game\Hammer</Filter>
+    </ClInclude>
+    <ClInclude Include="Hamster.h">
+      <Filter>Core\App\Game\Hamster</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Core\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Core\App\Game\Particle</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
